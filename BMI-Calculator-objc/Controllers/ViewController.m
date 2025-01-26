@@ -17,6 +17,12 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
+- (IBAction)heightSliderChanged:(UISlider *)sender {
+    NSLog(@"%f", sender.value);
+}
+- (IBAction)weightSliderChanged:(UISlider *)sender {
+    NSLog(@"%f", sender.value);
+}
 
 
 @end
